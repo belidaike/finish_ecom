@@ -1,0 +1,92 @@
+.carousel-wrapper {
+  display: flex;
+  position: relative;
+  background: linear-gradient(to right, rgba(247, 103, 146, 0.333), rgba(194, 0, 184, 0.467));
+  --mask:
+    linear-gradient(#000 0 0) 50%/calc(100% - 80px) calc(100% - 80px) no-repeat, ;
+  clip-path: polygon(80px 0, calc(100% - 80px) 0, 100% 80px, 100% calc(100% - 80px), calc(100% - 80px) 100%, 80px 100%, 0 calc(100% - 80px), 0 80px);
+  gap: 2rem;
+  margin: 1.5rem .5rem;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 3rem auto;
+}
+
+.carousel-wrapper>h1 {
+  background-color: white;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+
+#DLoop-inner>p {
+  padding: 1rem;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: auto;
+  background-color: #fff;
+}
+
+
+.slide {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  filter: drop-shadow(0px 0px 5px #555);
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
+}

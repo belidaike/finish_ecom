@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 1;
+    background-image: linear-gradient(to bottom, var(--drakgreen), var(--lightorange));
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.hero-left {
+    color: black;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-desc>p {
+    font-size: 1.2rem;
+}
+
+.stat>* {
+    font-size: 1rem;
+}
+
+.stat>div>span {
+    font-size: 1.3rem;
+}
+
+.hero-title {
+    position: relative;
+}
+
+.hero-title>h1 {
+    font-size: 3.8rem;
+    font-family: SingleDay;
+    font-weight: 200;
+    letter-spacing: .5rem;
+    line-height: 4rem;
+}
+
+.orange-circle {
+    height: 4rem;
+    width: 4rem;
+    background-image: linear-gradient(to right, var(--darkerorange), white);
+    position: absolute;
+    border-radius: 2rem;
+    right: 30%;
+    top: 50%;
+    z-index: -1;
+}
+
+.blue-circle {
+    height: 4rem;
+    width: 4rem;
+    background-image: linear-gradient(to right, var(--primary), white);
+    position: absolute;
+    border-radius: 2rem;
+    right: 85%;
+    top: 15%;
+    z-index: -1;
+}
+
+
+.search-bar {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-bar>input {
+    border: none;
+    outline: none;
+}
+
+.stats {
+    background-color: rgb(233, 223, 223);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.stat>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.stat>div {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.stat>div>:nth-child(2) {
+    align-items: start;
+}
+
+
+
+/* right side */
+.image-container {
+    /* background-color: blue; */
+    height: 35rem;
+    overflow: hidden;
+    /* border-radius: 15rem 15rem 0 0; */
+    /* border: 8px solid rgba(255, 255, 255, 0.12); */
+}
+
+
+.secondaryText {
+    font-size: 1rem;
+}
+
+.hero-right>.image-container {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,34 @@
+.productDisplay-wrapper {}
+
+.productDisplay-container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    gap: 5rem;
+}
+
+.productDisplay-left {
+    gap: 2rem;
+}
+
+.productDisplay-left1 {
+    gap: 2rem;
+}
+
+.productDisplay-left2>img {
+    width: 500px;
+}
+
+.productDisplay-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.productDisplay-right>* {
+    font-size: 1.5rem;
+}

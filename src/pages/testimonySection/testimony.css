@@ -1,0 +1,29 @@
+.testimony {
+    position: relative;
+    background: linear-gradient(to right, rgba(247, 103, 146, 0.333), rgba(194, 0, 184, 0.467));
+    --mask:
+        linear-gradient(#000 0 0) 50%/calc(100% - 80px) calc(100% - 80px) no-repeat, ;
+    clip-path: polygon(80px 0, calc(100% - 80px) 0, 100% 80px, 100% calc(100% - 80px), calc(100% - 80px) 100%, 80px 100%, 0 calc(100% - 80px), 0 80px);
+    gap: 2rem;
+
+    margin: 1.5rem .5rem;
+    /* cursor: grab; */
+    overflow: hidden;
+    text-align: center;
+    padding: 10rem;
+}
+
+/* .carousel {} */
+
+/* .inner {} */
+
+
+
+/* 
+POINTER EVENS NONE
+.item img {
+    width: 200px;
+    height: auto;
+    border-radius: 2rem;
+    pointer-events: none;
+} */

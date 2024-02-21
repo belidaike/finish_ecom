@@ -1,0 +1,19 @@
+{
+  "slides": [
+    {
+      "src": "https://picsum.photos/seed/img1/600/400",
+      "alt": "Image 1 for carousel",
+      "testimony": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, magni rerum sequi et omnis possimus dicta totam accusamus dolor modi adipisci. Quidem sint sunt dolorem perferendis iure reprehenderit cum voluptatibus?"
+    },
+    {
+      "src": "https://picsum.photos/seed/img2/600/400",
+      "alt": "Image 2 for carousel",
+      "testimony": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quo minima numquam quisquam eaque officia totam doloremque suscipit ex repellat fuga quaerat pariatur dolores praesentium corrupti labore eos, cumque odit!"
+    },
+    {
+      "src": "https://picsum.photos/seed/img3/600/400",
+      "alt": "Image 3 for carousel",
+      "testimony": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, sed quaerat. Maiores modi voluptatibus sapiente, eligendi officiis in soluta eaque nobis harum ipsum? In omnis voluptatibus magni commodi, et architecto?"
+    }
+  ]
+}
