@@ -1,8 +1,8 @@
 {
+  "type": "module",
   "name": "portfolio_vite",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.8.0",
     "framer-motion": "^11.0.3",
     "react": "^18.2.0",
     "react-countup": "^6.5.0",

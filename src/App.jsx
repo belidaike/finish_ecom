@@ -14,14 +14,12 @@ const App = () => {
     <div className='App'>
       <ShopContextProvider>
         <BrowserRouter>
-
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/product/:id' element={<ProductDisplay />} />
           </Routes>
-
         </BrowserRouter>
       </ShopContextProvider>
     </div>

@@ -46,7 +46,7 @@ export const PRODUCTS = [
     {
         id: 4,
         productName: "Acer Nitro 5 AN515-55-50VC",
-        price: 650,
+        price: 789,
         productImage: product4,
         productCategory: 'laptop',
         productDescription: ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo non, fugiat laboriosam pariatur blanditiis, ipsam suscipit adipisci reprehenderit corporis in quas dignissimos voluptates alias dolorem, possimus unde! Officia, maxime quos.'
@@ -62,7 +62,7 @@ export const PRODUCTS = [
     {
         id: 6,
         productName: "Lenovo LOQ 16IRH8",
-        price: 789,
+        price: 650,
         productImage: product6,
         productCategory: 'laptop',
         productDescription: ' Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo non, fugiat laboriosam pariatur blanditiis, ipsam suscipit adipisci reprehenderit corporis in quas dignissimos voluptates alias dolorem, possimus unde! Officia, maxime quos.'

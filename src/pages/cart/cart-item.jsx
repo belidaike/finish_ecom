@@ -10,24 +10,49 @@ const CartItem = (props) => {
 
 
     return (
-        <div className='cartItems'>
+        // <div className='cartItems'>
+        //     <img src={productImage} width={200} onClick={() => navigate(`/product/${id}`)} alt="" />
+        //     <h1>{productName}</h1>
+        //     <h1>{price > 1000 ? `$${price / 1000}` : `$${price}`}</h1>
+        //     <h1>{productCategory}</h1>
+        //     <div className='cart-options'>
+        //         <button className='button' onClick={() => { removeFromCart(id), setCountCart(n => n - 1) }}>-</button>
+        //         <input type="number"
+        //             value={cartItems[id]}
+        //             onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
+        //         />
+        //         <button className='button2' onClick={() => { addToCart(id), setCountCart(n => n + 1) }}>+</button>
 
-            <img src={productImage} width={200} onClick={() => navigate(`/product/${id}`)} alt="" />
-            <h1>{productName}</h1>
-            <h1>{price > 1000 ? `$${price / 1000}` : `$${price}`}</h1>
-            <h1>{productCategory}</h1>
-            <div className='cart-options'>
-                <button className='button' onClick={() => { removeFromCart(id), setCountCart(n => n - 1) }}>-</button>
-                <input type="number"
-                    value={cartItems[id]}
-                    onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
-                />
-                <button className='button2' onClick={() => { addToCart(id), setCountCart(n => n + 1) }}>+</button>
-
-            </div>
-            <button className='button3' onClick={() => { removeAll(id), setCountCart(n => n - cartItemCount) }}>x</button>
-        </div>
+        //     </div>
+        //     <button className='button3' onClick={() => { removeAll(id), setCountCart(n => n - cartItemCount) }}>x</button>
+        // </div>
+        <table className='cartItems'>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src={productImage} alt="" />
+                    </td>
+                    <td>{productName}</td>
+                    <td>${price}</td>
+                    <td>{productCategory}</td>
+                    <td className="cart-options">
+                        < button className='button' onClick={() => { removeFromCart(id), setCountCart(n => n - 1) }}> -</button >
+                        <input type="number"
+                            value={cartItems[id]}
+                            onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
+                        />
+                        <button className='button2' onClick={() => { addToCart(id), setCountCart(n => n + 1) }}>+</button>
+                    </td>
+                    <td>
+                        <button className='button3' onClick={() => { removeAll(id), setCountCart(n => n - cartItemCount) }}>x</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table >
     )
 }
 
 export default CartItem
+
+
+

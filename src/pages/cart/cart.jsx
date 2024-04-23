@@ -15,7 +15,6 @@ const Cart = () => {
                 {filteredProducts.length > 0 ?
                     (
                         <>
-                            <h1 className="cart-title">Your Cart</h1>
 
                             {filteredProducts.map(
                                 (item) => {
@@ -46,7 +45,7 @@ const Cart = () => {
                             ) :
                                 (
                                     <div className='paddings emptycart'>
-                                        <i><h1>Your cart is empty!</h1></i>
+                                        <i className='paddings noItem'><h3>Your cart is empty!</h3></i>
                                         <button className='button2' onClick={() => { nav('/'), setSearch('') }}>Shop Now!</button>
                                     </div>
                                 )
